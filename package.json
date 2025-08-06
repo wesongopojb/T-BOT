@@ -21,7 +21,7 @@
     "fs-extra": "^11.2.0",
     "gradient-string": "^2.0.2",
     "hercai": "^12.2.0",
-    "dotenv": "latest",
+    "dotenv": "^16.3.1",
     "node-fetch": "^3.3.2",
     "node-catbox": "3.2.0",
     "node-id3": "^0.2.6",
