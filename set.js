@@ -21,7 +21,7 @@ const config = {
     },
     
     url: process.env.URL || "https://files.catbox.moe/4h8lfw.jpg",
-    githubUrl: process.env.GITHUB_URL || "https://github.com/Keithkeizzah",
+    sourceUrl: process.env.SOURCE_URL || "https://github.com/Keithkeizzah",
     ownerName: process.env.OWNER_NAME || 'Keith',
     botName: process.env.BOT_NAME || 'T-BOT'
 };
