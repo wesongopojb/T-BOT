@@ -48,7 +48,32 @@ fork our repository [fork](https://github.com/Keithkeizzah/T-BOT/fork)
 - those deploying via render copy paste this and add to your configuration variables 
 ```bash
 
+BOT_TOKEN=
+
+OWNER_ID=
+
+PREFIX=.
+
+GREET_ENABLED=true
+
+GIF_URL=https://files.catbox.moe/pm9x7c.gif
+
+ANTILINK=true
+
+OWNER_NAME=Keith
+
+BOT_NAME=T-BOT
+
+URL=https://files.catbox.moe/c2v26s.jpg
+
+SOURCE_URL=https://github.com/Keithkeizzah
+
+TIMEZONE=Africa/Nairobi
+
 ```
+
+## Note
+make sure you add bot token generated from @botfather and owner id generated from @userinfobot
 ### Installation
 ```bash
 git clone https://github.com/Keithkeizzah/T-BOT.git
