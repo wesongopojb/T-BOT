@@ -20,7 +20,7 @@ const config = {
         enabled: process.env.ANTILINK !== 'false'
     },
     
-    url: process.env.URL || "https://files.catbox.moe/4h8lfw.jpg",
+    url: process.env.URL || "https://files.catbox.moe/c2v26s.jpg",
     sourceUrl: process.env.SOURCE_URL || "https://github.com/Keithkeizzah",
     ownerName: process.env.OWNER_NAME || 'Keith',
     botName: process.env.BOT_NAME || 'T-BOT'
