@@ -7,8 +7,8 @@ if (fs.existsSync('set.env')) {
 
 const config = {
     
-    token: process.env.BOT_TOKEN || '7516471771:AAHyuyEkb7r4hV125yQ8Gy74DorGix67WH8',
-    owner_id: process.env.OWNER_ID || "7516471771",
+    token: process.env.BOT_TOKEN || '',
+    owner_id: process.env.OWNER_ID || "",
     prefix: process.env.PREFIX || ".",
     timezone: process.env.TIMEZONE || "Africa/Nairobi",
     greetNewMembers: {
