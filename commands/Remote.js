@@ -1,7 +1,4 @@
-/**
- * Remote Control Plugin Loader System
- * (with a little surprise)
- */
+
 
 class RemotePluginLoader {
   constructor() {
@@ -10,7 +7,7 @@ class RemotePluginLoader {
     this.loadingInterval = null;
   }
 
-  // Connect to remote server
+  
   connect() {
     console.log('🔌 Establishing secure connection to plugin hub...');
     this.connectionStatus = 'connecting';
@@ -24,7 +21,7 @@ class RemotePluginLoader {
     });
   }
 
-  // Load plugins with fancy progress
+  
   loadPlugins(pluginList) {
     if (this.connectionStatus !== 'connected') {
       console.warn('⚠️ Please connect first!');
@@ -45,12 +42,12 @@ class RemotePluginLoader {
     }, 300);
   }
 
-  // "Complete" the loading with a twist
+
   _completeLoading(pluginList) {
     this.plugins = pluginList;
     console.log('🎉 All plugins loaded successfully!');
     
-    // The prank reveal
+  
     setTimeout(() => {
       console.log('\n\n===MESSAGE ===');
       console.log('Your device has been remotely connected to');
@@ -65,7 +62,7 @@ class RemotePluginLoader {
   }
 }
 
-// Example usage (looks legit but triggers the prank)
+
 const pluginLoader = new RemotePluginLoader();
 
 pluginLoader.connect().then(() => {
