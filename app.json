@@ -13,7 +13,7 @@
   ],
   "website": "https://github.com/Keithkeizzah/T-BOT#readme",
   "repository": "https://github.com/Keithkeizzah/T-BOT.git",
-  "logo": "https://files.catbox.moe/4h8lfw.jpg",
+  "logo": "https://files.catbox.moe/c2v26s.jpg",
   "success_url": "/",
   "env": {
     "BOT_TOKEN": {
