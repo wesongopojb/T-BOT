@@ -40,11 +40,15 @@ fork our repository [fork](https://github.com/Keithkeizzah/T-BOT/fork)
 
 
 
-### Prerequisites
-- Node.js v16+
-- Telegram bot token from [@BotFather](https://t.me/BotFather)
-- Git
+### set up
 
+- get Telegram bot token from [@BotFather](https://t.me/BotFather)
+- get Telegram bot user id from [@userinfobot](https://t.me/@userinfobot)
+- when deploying via panel always edit set.env
+- those deploying via render copy paste this and add to your configuration variables 
+```bash
+
+```
 ### Installation
 ```bash
 git clone https://github.com/Keithkeizzah/T-BOT.git
