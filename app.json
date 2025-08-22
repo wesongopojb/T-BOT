@@ -15,6 +15,7 @@
   "repository": "https://github.com/Keithkeizzah/T-BOT.git",
   "logo": "https://files.catbox.moe/c2v26s.jpg",
   "success_url": "/",
+  "stack": "container",
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token from @BotFather",
@@ -60,16 +61,15 @@
       "required": false
     }
   },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "stack": "heroku-24",
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "standard-2x"
     }
-  }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
 }
